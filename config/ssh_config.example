@@ -1,0 +1,9 @@
+# Copy this block into ~/.ssh/config and replace the placeholders locally.
+# IdentityFile should point to your local private key file.
+
+Host webmon
+    HostName TAILSCALE_IP_HERE
+    Port 2222
+    User SSH_USER_HERE
+    IdentityFile ~/.ssh/PRIVATE_KEY_FILENAME_HERE
+    IdentitiesOnly yes
