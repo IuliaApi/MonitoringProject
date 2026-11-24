@@ -11,6 +11,9 @@ Our team will be using NetXMS to check if our Dell Precision 7680 and one of its
 
 # How to Reproduce Our Setup
 
+For the native single-PC Windows version, see the [Windows setup and demo](windows/).
+The Debian VPS workflow is below.
+
 VPS address (Telnet): [100.75.133.39:2222]
 
 1. Install [Docker and Compose on Debian].
@@ -21,6 +24,7 @@ VPS address (Telnet): [100.75.133.39:2222]
 
 # Repo folders
 
+- [`windows/`](windows/) - native Windows SNMP setup, dashboard, and demo
 - `slides/` - presentation
 - `src/` - scripts
 - `config/` - configs with secrets removed
